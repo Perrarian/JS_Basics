@@ -1,0 +1,51 @@
+.main {
+    padding-top: 9rem;
+    min-height: 95vh;
+    min-width: 100vw;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,121,75,1) 35%, rgba(0,212,255,1) 100%);
+    justify-content: center;
+}
+
+    .footer
+{
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 !important;
+}
+
+.display-1 {
+    text-align: center;
+    background: -webkit-linear-gradient(#eee, rgb(36, 221, 228));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.display-2 {
+    padding-top: 7rem;
+    padding-bottom: 9rem;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(58, 166, 173), rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+@media (max-width: 500px) {
+    .display-1 {
+        font-size: 40px;
+        text-align: center;
+    background: -webkit-linear-gradient(#eee, rgb(36, 221, 228));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    .display-2 {
+        font-size: 40px;
+        text-align: center;
+    background: -webkit-linear-gradient(#eee, rgb(36, 221, 228));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+}
