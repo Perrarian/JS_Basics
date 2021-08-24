@@ -34,7 +34,7 @@
 }
 .carousel-inner {
     width: 50%;
-    padding-top: 10rem;
+    padding-top: 6rem;
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
@@ -58,6 +58,12 @@
     font-size: 3rem;
 }
 
+code {
+    color: black;
+    font-size: 12px;
+    text-align: left;
+}
+
 @media (max-width: 500px) {
     .display-1 {
         font-size: 40px;
@@ -75,6 +81,16 @@
     }
     .carousel-inner {
         padding-top: 2rem;
+        padding-bottom: 5rem;
+    }
+    .example-text {
+        font-size: 13px;
+    }
+    .example-title {
+        font-size: 2rem;
+    }
+    .display-3 {
+        font-size: 3rem;
     }
 }
 
