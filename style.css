@@ -32,6 +32,31 @@
     -webkit-text-fill-color: transparent;
 
 }
+.carousel-inner {
+    width: 50%;
+    padding-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    text-align: center;
+    left: 25%;
+}
+
+.display-3 {
+    text-align: center;
+    font-weight: bold;
+    background: -webkit-linear-gradient(#eee, rgb(36, 221, 228));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.example-text {
+    color: white ;
+}
+.example-title {
+    color: white;
+    font-size: 3rem;
+}
 
 @media (max-width: 500px) {
     .display-1 {
@@ -48,4 +73,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     }
+    .carousel-inner {
+        padding-top: 2rem;
+    }
 }
+
+
